@@ -56,7 +56,7 @@ public class MedianOfTwoSortedArray {
 
 
     public static void main(String... args) {
-        var l = IntStream.iterate(0, i -> i + 10).limit(1000).boxed().collect(Collectors.toList());
+        var l = IntStream.iterate(0, i -> i + 7).limit(70).boxed().collect(Collectors.toList());
         System.out.println(l);
 
     }
